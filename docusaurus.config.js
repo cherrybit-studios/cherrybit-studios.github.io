@@ -71,11 +71,11 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: '#',
+                href: 'https://twitter.com/CptPixel',
               },
               {
                 label: 'Discord',
-                href: '#',
+                href: 'https://discord.gg/7hGyxgx2',
               },
               {
                 label: 'GitHub',

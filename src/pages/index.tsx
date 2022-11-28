@@ -2,17 +2,27 @@ import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-import Banner from './components/banner';
 import GameList from './components/game-list';
+import { useColorMode } from '@docusaurus/theme-common';
+import Banner from './components/banner';
+
+
+function BannerWrapper() {
+  const { colorMode } = useColorMode();
+
+  return (
+    <Banner darkMode={colorMode == 'dark'} />
+  );
+}
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
 
   return (
     <Layout
-      description={`The official documentation site for Cherry Bit. ${siteConfig.tagline}.`}
+      description={`Cherry Bit. ${siteConfig.tagline}.`}
     >
-      <Banner />
+      <BannerWrapper />
       <main>
         <GameList />
       </main>
