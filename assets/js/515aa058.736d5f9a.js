@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcherry_bit_site=self.webpackChunkcherry_bit_site||[]).push([[9],{5561:(e,r,t)=>{t.r(r),t.d(r,{default:()=>i});var n=t(7294);function i(e){return n.createElement("div",null,n.createElement("img",{src:"img/banner.png",alt:"Cherry bit"}))}}}]);
