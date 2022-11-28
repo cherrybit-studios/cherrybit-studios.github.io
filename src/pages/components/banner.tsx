@@ -1,12 +1,8 @@
-import { useColorMode } from '@docusaurus/theme-common';
 import React from 'react';
-import styles from '../index.module.css';
 
-export default function Banner() {
-    const { colorMode } = useColorMode();
-
+export default function Banner(props: { darkMode?: boolean }) {
     return (
-        <div className={colorMode == 'dark' ? '' : styles.bannerLightMode}>
+        <div>
             <img
                 src="img/banner.png"
                 alt="Cherry bit"
