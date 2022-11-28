@@ -1,0 +1,96 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require('prism-react-renderer/themes/vsLight');
+const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'Cherry Bit',
+  tagline: 'A Very Good Project created by Very Good CLI.',
+  url: 'https://cherry-bit-site.com',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'com.cherrybit.studios', // Usually your GitHub org/user name.
+  projectName: 'cherry_bit_site', // Usually your repo name.
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/com.example.verygoodcore/cherry_bit_site/tree/main/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      }),
+    ],
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      navbar: {
+        title: 'Cherry Bit',
+        logo: {
+          alt: 'Cherry Bit Logo',
+          src: 'img/logo_icon.png',
+        },
+        items: [
+          {
+            href: 'https://github.com/cherrybit-studios',
+            position: 'right',
+            className: 'navbar-github-icon',
+            'aria-label': 'GitHub repository',
+          },
+        ],
+      },
+      footer: {
+        links: [
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'Twitter',
+                href: '#',
+              },
+              {
+                label: 'Discord',
+                href: '#',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/cherrybit-studios',
+              },
+            ],
+          },
+        ],
+      },
+      prism: {
+        additionalLanguages: ['bash', 'dart', 'yaml'],
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+    }),
+};
+
+module.exports = config;
