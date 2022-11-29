@@ -23,18 +23,19 @@ In the gallery mode, you can browse through the sprites that the community made 
 select one and you can recreate it.
 
 Sprites in gallery can be played in two different game modes!
- - Chill mode: take your time, appreciate the art made by the community member and just have fun.
- - Race mode: Try to recreate the sprite as fast as you can and compete on the global highscore board.
+
+- Chill mode: take your time, appreciate the art made by the community member and just have fun.
+- Race mode: Try to recreate the sprite as fast as you can and compete on the global highscore board.
 
 ## In development 🏗
 
 Paint Buddy is currently in development mode, check the progress roadmap so far:
 
- - [x] Finish development of the first beta version, which will include the Free canvas mode.
- - [ ] Release Android beta version
- - [ ] Release iOS beta version
- - [ ] Implement Gallery chill mode
- - [ ] Implement Gallery Race mode
+- [x] Finish development of the first beta version, which will include the Free canvas mode.
+- [ ] Release Android beta version
+- [ ] Release iOS beta version
+- [ ] Implement Gallery chill mode
+- [ ] Implement Gallery Race mode
 
 ## Screenshoots 📷
 
@@ -68,17 +69,17 @@ Application, such as contact information and project management information.
 
 We may also use the information you provided us to contact your from time to time to
 provide you with important information, required notices and marketing promotions.
- 
+
 Automatic Data Collection and Advertising
 There is no automatic data collection, all data stored on our servers are manually
 provided by the user when they sign up or submit sprites to the gallery, all actions
 requires user confirmation. The is no advertising or data sharing with advertisers.
 
- 
+
 Does the Application collect precise real time location information of the device?
 This Application does not collect precise information about the location of your mobile
-device. 
- 
+device.
+
 
 Do third parties see and/or have access to information obtained by the Application?
 No
