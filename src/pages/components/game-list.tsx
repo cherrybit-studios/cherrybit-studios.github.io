@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '@docusaurus/Link';
 import clsx from 'clsx';
 
 import styles from '../index.module.css';
@@ -17,14 +18,18 @@ export default function GameList(): JSX.Element {
   );
 }
 
-function GameInfo({ title, img, description }: Game) {
+function GameInfo({ title, img, description, link }: Game) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img src={img} width="200" />
-      </div>
+      <Link to={link}>
+        <div className="text--center">
+          <img src={img} width="200" />
+        </div>
+      </Link>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <Link to={link}>
+          <h3>{title}</h3>
+        </Link>
         <p>{description}</p>
       </div>
     </div>
@@ -34,6 +39,7 @@ function GameInfo({ title, img, description }: Game) {
 type Game = {
   title: string;
   img: string;
+  link: string;
   description: JSX.Element;
 };
 
@@ -41,6 +47,7 @@ const Games: Game[] = [
   {
     title: 'Paint Buddy',
     img: 'img/paint_buddy.png',
+    link: 'docs/paint_buddy',
     description: (
       <>
         A mix of a game and pixel art editor, play as Buddy a charming brush
