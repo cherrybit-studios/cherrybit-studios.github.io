@@ -39,9 +39,9 @@ Paint Buddy is currently in development mode, check the progress roadmap so far:
 
 ## Screenshoots 📷
 
-<img src="img/sreenshoots/pb/buddy_1.png" style={{height: 400, paddingRight: 8}} />
-<img src="img/sreenshoots/pb/buddy_2.png" style={{height: 400, paddingRight: 8}} />
-<img src="img/sreenshoots/pb/buddy_3.png" style={{height: 400, paddingRight: 8}} />
+<img src="/img/sreenshoots/pb/buddy_1.png" style={{height: 400, paddingRight: 8}} />
+<img src="/img/sreenshoots/pb/buddy_2.png" style={{height: 400, paddingRight: 8}} />
+<img src="/img/sreenshoots/pb/buddy_3.png" style={{height: 400, paddingRight: 8}} />
 
 ## Privacy policy
 
