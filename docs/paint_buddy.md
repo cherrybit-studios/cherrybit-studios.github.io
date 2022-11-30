@@ -47,7 +47,7 @@ Paint Buddy is currently in development mode, check the progress roadmap so far:
 
 ```
 This privacy policy governs your use of the software application Paint Buddy
-(“Application”) for mobile devices that was created by CheryBit Studios. The
+(“Application”) for mobile devices that was created by CherryBit Studios. The
 Application is a casual painting game.
 
 What information does the Application obtain and how is it used?
