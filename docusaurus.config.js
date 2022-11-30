@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Cherry Bit',
-  tagline: 'A Very Good Project created by Very Good CLI.',
+  tagline: 'Fun games by Cherry Bit Studios.',
   url: 'https://cherry-bit-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
