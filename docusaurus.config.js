@@ -71,7 +71,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/7hGyxgx2',
+                href: 'https://discord.com/invite/6Vmf4q4wka',
               },
               {
                 label: 'GitHub',
