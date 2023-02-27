@@ -6,36 +6,15 @@ sidebar_position: 1
 
 ## Download 🎮
 
-Comming Soon!
+[Google Play 🤖](https://play.google.com/store/apps/details?id=xyz.cherrybits.game)
 
 ## The Game
 
 Paint Buddy is a mix of of a pixel art editor with a game where you play as Buddy, a charming
-paint brush that lives to create the most amazin pixel sprites.
+paint brush that lives to create the most amazing pixel sprites.
 
 You goal is to make beautiful sprites, choose your canvas size and take control of buddy, moving
 it from side to side, or climbing on the stairs to reach higher spots on the canvas.
-
-Game can be played in the free canvas mode, where you have freedom to draw whatever you want, once
-finished the sprite can be shared with the whole paint buddy community.
-
-In the gallery mode, you can browse through the sprites that the community made and submitted,
-select one and you can recreate it.
-
-Sprites in gallery can be played in two different game modes!
-
-- Chill mode: take your time, appreciate the art made by the community member and just have fun.
-- Race mode: Try to recreate the sprite as fast as you can and compete on the global highscore board.
-
-## In development 🏗
-
-Paint Buddy is currently in development mode, check the progress roadmap so far:
-
-- [x] Finish development of the first beta version, which will include the Free canvas mode.
-- [ ] Release Android beta version
-- [ ] Release iOS beta version
-- [ ] Implement Gallery chill mode
-- [ ] Implement Gallery Race mode
 
 ## Screenshoots 📷
 
