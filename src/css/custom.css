@@ -64,3 +64,16 @@ html[data-theme='dark'] .navbar-github-icon:before {
 .games {
   justify-content: center;
 }
+
+.game-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game-logo {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
