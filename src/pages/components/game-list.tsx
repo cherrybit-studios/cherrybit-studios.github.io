@@ -22,11 +22,10 @@ function GameInfo({ title, img, description, link }: Game) {
   return (
     <div className={clsx('col col--4')}>
       <Link to={link}>
-
         <div className="game-logo-container">
-        <div className="game-logo">
-          <img src={img} />
-        </div>
+          <div className="game-logo">
+            <img src={img} />
+          </div>
         </div>
       </Link>
       <div className="text--center padding-horiz--md">
@@ -65,11 +64,11 @@ const Games: Game[] = [
     link: 'docs/retro_game_journal',
     description: (
       <>
-        Not a game, but rather a writting project.
-        A journal where a brief summary and the highlights of a retro
-        game is written down, it is a record of the games that I played and found out
-        interesting, to a point where I want to remember it, and hopefully
-        it can also be a call up to other people to play it too.
+        Not a game, but rather a writting project. A journal where a brief
+        summary and the highlights of a retro game is written down, it is a
+        record of the games that I played and found out interesting, to a point
+        where I want to remember it, and hopefully it can also be a call up to
+        other people to play it too.
       </>
     ),
   },
