@@ -19,4 +19,5 @@ as a reminder and a call up to a fun, interesting game.
 
 ## Download the issues:
 
-[Issue #1 Tiny Toon Adventures: Buster's Hidden Treasure (29/06/2023)](/retro_game_journal/RGJ_Issue_1.pdf)
+- [Issue #1 Tiny Toon Adventures: Buster's Hidden Treasure (29/06/2023)](/retro_game_journal/RGJ_Issue_1.pdf)
+- [Issue #2 Disney's Aladdin  (Mega Driver) (17/07/2023)](/retro_game_journal/RGJ_Issue_2.pdf)
